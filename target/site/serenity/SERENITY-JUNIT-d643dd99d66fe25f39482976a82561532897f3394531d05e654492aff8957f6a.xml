@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing different products on the Best Api Application" skipped="0" tests="4" time="14.33" timestamp="2022-06-19T14:10:07.955+01:00[Europe/London]"><testcase name="Check if the GoRest application is accessed by the users"/><testcase name="Check if User can add  products in the application"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.MyStepdefs.userCanGetBackAValidStatusCodeOfProduct(MyStepdefs.java:39)&#13;
+✽.Then User can get back a valid status code 201 of product(Productinfo.feature:11)&#13;
+</system-err></testcase><testcase name="Check if User can update  products in the application"/><testcase name="Check if User can Delete  products in the application"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.MyStepdefs.userCanDeleteNewProductUsingDELETEMethodInProductsApplication(MyStepdefs.java:71)&#13;
+✽.When User can Delete new product using DELETE method in products application(Productinfo.feature:20)&#13;
+</system-err></testcase></testsuite>
